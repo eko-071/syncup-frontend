@@ -166,6 +166,7 @@ export default function MyProjectsPage() {
           margin-bottom: 28px;
         }
         .mp-form-box {
+          background: #08183F;
           border: 1px solid #fff;
           border-radius: 16px;
           padding: 32px;
@@ -202,7 +203,7 @@ export default function MyProjectsPage() {
           box-sizing: border-box;
           transition: border-color 0.2s;
         }
-        .mp-input:focus { border-color: rgba(255,255,255,0.85); }
+        .mp-input:focus { border-color: rgba(255,255,255,0.85); background: #6178AD52; }
         .mp-input::placeholder { color: rgba(255,255,255,0.45); }
         .mp-types { display: flex; flex-wrap: wrap; gap: 12px; }
         .mp-type-btn {
